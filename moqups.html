@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+    crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+crossorigin="anonymous"></script>
+
+</head>
+<style>
+    body{
+        width: 50vw;
+        height: 100%;
+        position: relative;
+        left:50%;
+        transform: translateX(-50%);
+        border: 1px solid black;
+    }
+    .head{
+        background-color: grey;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        height: 130px;
+        width: 100%;
+    }
+    .pri{
+        font-size: 30px;
+    }
+    .sta{
+        font-size: 15px;
+    }
+        
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">moqups</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">category1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">category2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">category3</a>
+                </li>
+            </ul>   
+                <form class="form-inline my-2 my-lg-0">
+                    <input  style="width: 120px;" class="form-control mr-sm-2" type="search" placeholder="Search">
+                   
+                </form>    
+        </div> 
+        
+    </nav>
+      
+    <div class="container head" style="background-color: #edeff4;">
+        <h1 class="pri">primary tagline for your blog.</h1>
+        <p class="sta"> supporting statement for the blog's main tagline. </p>
+
+    </div>
+    <div class="container" style="display: flex;float: right;height: 120px;width: inherit;align-items: center;">
+        <p style="font-size: small;width: 250px;">subscribe to our news letter</p>
+        
+         <input style="font-size: small;width: 40%;"
+            type="email" class="form-control" id="inputEmail3" placeholder="Enter your Email">
+        
+        <input style="position: relative;left: 20px;background-color: #2a303d;height:45px;" class="btn btn-primary" type="submit" value="Subscribe">
+    </div>
+
+</body>
+</html>
